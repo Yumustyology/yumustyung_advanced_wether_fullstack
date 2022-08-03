@@ -1,0 +1,25 @@
+.intro_box{
+    width: 50%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: left;
+}
+
+.text_box{
+    margin-left: 20px;
+}
+.intro_heading{
+    /* text-align: center; */
+}
+
+/* media query */
+
+@media screen and (max-width: 1000px) {
+    .intro_box{
+        margin-top: 5em;
+        width: 80%;
+    }
+}
