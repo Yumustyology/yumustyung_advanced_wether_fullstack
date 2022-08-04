@@ -39,7 +39,11 @@ This script is essential to be ran first on clone or download of the repository 
 The `npm install` script can be ran with the `--force` flag when there is conflict with the dependencies installaton on the local server. 
 
 ###  `npm start`
-In the application directory, create a .env file and store the following enviroment variables.
+
+This runs the backend in the development mode and opens it on port [http://localhost:5000](http://localhost:5000) 
+
+### Backend enviroment Variables
+In the application backend directory, create a .env file and store the following enviroment variables.
 <li>REFRESH_TOKEN_SECRET</li>
 <li>ACCESS_TOKEN_SECRET</li>
 <li>DB_CONNECT_URI</li>
@@ -61,6 +65,15 @@ This script is essential to be ran first on clone or download of the repository 
 ###  `npm install --force`
 The `npm install` script can be ran with the `--force` flag when there is conflict with the dependencies installaton on the local server. 
 
+### Frontend enviroment Variables
+In the application frontend directory, create a .env file and store the following enviroment variables.
+<li>REACT_APP_ID</li>
+The <b>REACT_APP_ID</b> is used to hold the openweathermap api key which is used in getting informations of a serched region on the application, this is deemed secrete and was added in the env file so as not to get pushed to the public repository, you can get an api key once you've registered on the 
+
+[https://openweathermap.org](https://openweathermap.org/) website.
+
+<br />
+
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -68,6 +81,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
 
 ### `npm test`
 
